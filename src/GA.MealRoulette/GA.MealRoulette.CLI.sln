@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GA.MealRoulette.CLI", "GA.MealRoulette.CLI\GA.MealRoulette.CLI.csproj", "{A0571FB3-F0E7-46DF-8D21-F1761F25F04A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{357FA3B7-B640-4ED9-B884-7BDD0E241377} = {357FA3B7-B640-4ED9-B884-7BDD0E241377}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GA.MealRoulette.Engine", "GA.MealRoulette.Engine\GA.MealRoulette.Engine.csproj", "{BA99934F-13E5-4A89-A77D-EEF79B2D9D86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GA.MealRoulette.Model", "GA.MealRoulette.Model\GA.MealRoulette.Model.csproj", "{357FA3B7-B640-4ED9-B884-7BDD0E241377}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GA.MealRoulette.Model.Tests", "GA.MealRoulette.Model.Tests\GA.MealRoulette.Model.Tests.csproj", "{96D9330C-9D9C-4CD7-9356-BB680800BCA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0571FB3-F0E7-46DF-8D21-F1761F25F04A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0571FB3-F0E7-46DF-8D21-F1761F25F04A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0571FB3-F0E7-46DF-8D21-F1761F25F04A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0571FB3-F0E7-46DF-8D21-F1761F25F04A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA99934F-13E5-4A89-A77D-EEF79B2D9D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA99934F-13E5-4A89-A77D-EEF79B2D9D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA99934F-13E5-4A89-A77D-EEF79B2D9D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA99934F-13E5-4A89-A77D-EEF79B2D9D86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{357FA3B7-B640-4ED9-B884-7BDD0E241377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{357FA3B7-B640-4ED9-B884-7BDD0E241377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{357FA3B7-B640-4ED9-B884-7BDD0E241377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{357FA3B7-B640-4ED9-B884-7BDD0E241377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96D9330C-9D9C-4CD7-9356-BB680800BCA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96D9330C-9D9C-4CD7-9356-BB680800BCA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96D9330C-9D9C-4CD7-9356-BB680800BCA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96D9330C-9D9C-4CD7-9356-BB680800BCA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
